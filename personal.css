@@ -11,6 +11,16 @@ h6 {
   font-weight: 700;
   font-family: 'Montserrat';
 }
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+#mainNav .navbar-nav > a.nav-link.active {
+	color: #a9882a !important;
+    background: none;
+}
+
 .avatar {
     vertical-align: middle;
     width: 290px;
@@ -85,6 +95,10 @@ section h2 {
     font-size: 3rem;
     line-height: 2.5rem;
   }
+  .pl-lg-3, .px-lg-3 {
+    padding-left: 2rem !important;
+	padding-right: 1.5rem!important;
+   }
 }
 
 .btn-xl {
@@ -483,7 +497,99 @@ h2 a {
     padding: 10px 10px;
 }
 
+.list-inline mb-0{
+	margin-left: 422px;
+}
+
 .skill-items {
     list-style-type: none;
     padding: 0;
 }
+
+.projectsImg{
+	width: 350px;
+	height: 250px;
+}
+
+#aboutSection {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+#details-Section{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#contactSection{
+	text-align: center;
+}
+
+#socialIcon{
+	margin-left: 40%;
+}
+
+section{
+	padding: 3rem 0;
+}
+
+#navigationBar{
+	display: inherit;
+}
+
+.navbar-toggler-icon{
+	background: #fff;
+}
+
+.navbar-light .navbar-toggler{
+	border-color: #fff;
+}
+
+.navbar-toggler{
+	float: left;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	
+	#personal-Details{
+		margin-bottom: 30px;
+	}
+	
+	.list-inline mb-0{
+		margin-left: 125px;
+	}
+	
+	.navbar-light .navbar-brand {
+		color: rgba(0,0,0,.9);
+		margin-left: 25px;
+	}
+	
+	.projectsImg{
+		width: 100%;
+	}
+	
+	#socialIcon{
+		margin-left: 20%;
+	}
+	
+	#navigationBar {
+		display: inline;
+	}
+	
+	#mainNav .navbar-nav > a.nav-link.active {
+		color: #a9882a !important;
+		background: none;
+	}
+	
+	#mainNav .navbar-nav{
+		padding-left: 30px;
+	}
+	
+	dl, ol, ul {
+		word-break: break-word;
+	}
+	
+	
+}	
+
+
